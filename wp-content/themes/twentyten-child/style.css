@@ -1,0 +1,228 @@
+﻿/*
+Theme Name:     Twenty Ten Child Casa Căr?ii
+Theme URI:      http: //www.casacartii.ro/
+Description:    Child theme for the Twenty Ten theme developed for Casa Cartii as a volunteer
+Author:         Alexandru Palcuie
+Author URI:     http: //palcu.blogspot.com
+Template:       twentyten
+Version:        0.1.0
+*/
+
+@import url("../twentyten/style.css");
+
+/* Body */
+#wrapper{
+	margin-bottom:20px;
+}
+
+#container{
+	margin-top: 2px;
+}
+
+/* Header */
+#header{
+	padding-top:10px;
+}
+#header-img{
+	width:228px;
+	height:198px;
+}
+
+#site-title{
+  position:relative;
+  width:500px;
+  top:10px;
+  left:300px;
+  font-size:40px;
+  text-align: center;
+}
+
+	#site-title a{
+		color:#fff;
+	}
+
+#logo{
+	position:relative;
+	width: 182px;
+	height: 156px;
+	top:-40px;
+}
+
+#site-description{
+  position:relative;
+  -webkit-text-size-adjust: auto;
+  width:700px;
+  font-size:150%;
+  color:#fff;
+  text-align:center;
+  font-family: Helvetica;
+}
+
+#search{
+  position:relative;
+  top:145px;
+  left:130px;
+}
+
+/* Colors */
+body{
+  background-color: #541705;
+}
+
+#wrapper{
+background-color: #AF7E58;
+background-image: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    color-stop(0.25, rgb(162,117,81)),
+    color-stop(0.68, rgb(176,127,89))
+);
+background-image: -moz-linear-gradient(
+    right center,
+    rgb(162,117,81) 25%,
+    rgb(176,127,89) 68%
+);
+
+  border: 5px solid #FFF2E2;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#main{
+  background-color: #D8C0A6;
+  margin-right:0px;
+  padding-top:20px
+}
+
+#content{
+  background-color: #F3E4D1;
+  padding:15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding-left:20px;
+  width:715px;
+  margin-left:0px;
+}
+
+.entry-content{
+  text-indent:20px;
+}
+
+
+/* Primary menu */
+#access{
+  background-color:#671700;
+  margin-top:20px;
+}
+
+#access a{
+  width:120px;
+  text-align:center;
+  border-right: 2px solid #aaa;
+}
+
+#access ul a,#access ul ul a,#access ul ul{
+  width:120px;
+}
+#access .menu-header, div.menu{
+  margin-left:0px;
+}
+
+/*Move Sidebar Left*/
+#primary,
+#secondary{
+  float:left;
+  padding-left:15px;
+}
+#secondar{
+  clear:left;
+}
+#container{
+  float:right;
+  margin-right:-185px;
+  width: 960px;
+}
+
+/*Secondary Menu*/
+#primary{
+  margin-top:-20px;
+  width:150px;
+}
+.menu-sidebar-container{
+  margin-left:-35px;
+}
+#nav_menu-3 .menu-header ul,
+div.menu ul, #nav_menu-3 ul {
+	list-style: none;
+	margin: 0;
+}
+#nav_menu-3 .menu-header li,
+div.menu li {
+	float: left;
+	position: relative;
+}
+#nav_menu-3 a {
+	color: #aaa;
+	display: block;
+	line-height: 38px;
+	padding: 0 10px;
+	text-decoration: none;
+	width:120px;
+	text-align:center;
+	background: #671700;
+	border-top: 2px solid #aaa;
+}
+#nav_menu-3 li:hover > a {
+	background: #333;
+	color: #fff;
+  display: block;
+}
+
+/* Menus */
+.menu{
+	font-size:15px;
+	font-family:'Helvetica Neue', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	font-weight: bold;
+}
+
+/* Tabel front page */
+#front-contact{
+	height:224px;
+	padding:20px;
+	background-color:#F3E4D1;
+	margin-bottom:20px;
+	margin-right:210px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+#contact-text{
+	display:block;
+	font-size:140%;
+	position:relative;
+	width:350px; 
+	height:100px;
+}
+	#contact-text h2{
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	
+	#contact-text li{
+		padding-bottom: 4px;
+	}
+	
+#harta{
+	position:relative;
+	width:240px;
+	height:220px;
+	left: 470px; 
+	top: -100px;
+}
+
+#menu-item-344 a{
+	background-color: #910;
+	line-height:27px;
+}
