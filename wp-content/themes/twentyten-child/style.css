@@ -1,14 +1,14 @@
 ﻿/*
-Theme Name:     Twenty Ten Child Casa Căr?ii
-Theme URI:      http: //www.casacartii.ro/
+Theme Name:     Twenty Ten Child Casa Cartii
+Theme URI:      http: //www.fundatiacasacartii.ro/
 Description:    Child theme for the Twenty Ten theme developed for Casa Cartii as a volunteer
 Author:         Alexandru Palcuie
 Author URI:     http: //palcu.blogspot.com
-Template:       twentyten
-Version:        0.1.0
+Template:       twentyten-old
+Version:        0.2.0
 */
 
-@import url("../twentyten/style.css");
+@import url("../twentyten-old/style.css");
 
 /* Body */
 #wrapper{
